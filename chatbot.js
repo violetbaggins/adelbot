@@ -10,7 +10,7 @@ window.addEventListener("load", function(){
     let saludoBienvenida = ['hola', 'hoal','holas','holaa','holaas', 'holis','holu','holi', 'ola','como', 'estas', 'ahi', 'onda', 'buenas','buenass', 'hello', 'hi','bonjour']
     let uwu = ["quiere", "decir", "uwu"]
     let insultos = ["puta", "puto", "chota", "pija", "boluda", "boludo", "forro", "imbecil", "forra", "tarada", "tarado"]
-    let nombreUser = ["nico",  "nicolas","chen", "nicole", "juli","julieta", "lean", "leandro", "mario", "karina", "kari", "carli", "carla", "pao", "rene", "andy", "andres", "santi", "santiago","santia", "santis"]
+    let nombreUser = ["nico",  "nicolas","chen", "nicole", "juli","julieta", "lean", "leandro", "mario", "karina", "kari", "carli", "carla", "pao", "rene", "andy", "andres", "santi", "santiago","santia", "santis", "adela", "adelheyd","adelhate"]
 
     btnSubmit.addEventListener('click', function(){
     
@@ -116,6 +116,14 @@ window.addEventListener("load", function(){
                 break;
             case "mario":
                 chatText.innerHTML += `<p class="txt-adelbot">Adelbot: Hola Vecino!</p>`
+                break;
+            case "adela":
+            case "adelheyd":
+            case "adelhate":
+                chatText.innerHTML += `<p class="txt-adelbot">Adelbot: yo soy yo?</p>`
+                break;
+             case "rene":
+                chatText.innerHTML += `<p class="txt-adelbot">Adelbot: Hola Rene mi amor hermoso</p>`
                 break;
            /*  case "nombreDefault":
                 chatText.innerHTML += `<p>Ai ese nombre no lo conozco T.T</p><p>Solo respondo a Nico, SantiS, SantiA, Juli, Lean, Carli, Kari, Rene, Mario, Andy o Pao</p><p>a Nicole tambien, aunque me da miedo uwu</p>`
