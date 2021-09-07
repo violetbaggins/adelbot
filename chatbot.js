@@ -58,7 +58,7 @@ window.addEventListener("load", function(){
 
         // para que no me tome el saludo como un nombre q no conoce
         if(!helpEncontrado && !saludoEncontrado && !uwuEncontrado && !insultoEncontrado && !nombreEncontrado) {
-            chatText.innerHTML += `<p class="txt-adelbot">Ai no te conozco <b>${inputTextLowercase}</b> T.T</p><p class="txt-adelbot">Solo respondo a Nico, SantiS, SantiA, Juli, Lean, Carli, Kari, Rene, Mario, Andy o Pao</p><p class="txt-adelbot">a Nicole tambien, aunque me da miedo uwu</p>`
+            chatText.innerHTML += `<p class="txt-adelbot">Ai no te conozco <b>${inputTextLowercase}</b> T.T</p><p class="txt-adelbot">Solo respondo a Nico, SantiS, SantiA, Juli, Lean, Carli, Adela, Kari, Rene, Mario, Mangui, Vico, Andy o Pao</p><p class="txt-adelbot">a Nicole tambien, aunque me da miedo uwu</p>`
         }
 
         
