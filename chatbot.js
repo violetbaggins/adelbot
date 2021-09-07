@@ -74,7 +74,7 @@ window.addEventListener("load", function(){
                 chatText.innerHTML += `<p class="txt-adelbot">Adelbot: Bue bue no hace falta usar esas palabras</p>`
                 break;
             case "pao":
-                chatText.innerHTML += `<p class="txt-adelbot">Adelbot: Hola Pao, tu bot esta genial</p>`
+                chatText.innerHTML += `<p class="txt-adelbot">Adelbot: Pao tu eres la reina del archivo</p>`
                 break;
             case "nico":
             case "nicolas":
