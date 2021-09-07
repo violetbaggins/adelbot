@@ -10,7 +10,7 @@ window.addEventListener("load", function(){
     let saludoBienvenida = ['hola', 'hoal','holas','holaa','holaas', 'holis','holu','holi', 'ola','como', 'estas', 'ahi', 'onda', 'buenas','buenass', 'hello', 'hi','bonjour']
     let uwu = ["quiere", "decir", "uwu"]
     let insultos = ["puta", "puto", "chota", "pija", "boluda", "boludo", "forro", "imbecil", "forra", "tarada", "tarado"]
-    let nombreUser = ["nico",  "nicolas","chen", "nicole", "juli","julieta", "lean", "leandro", "mario", "karina", "kari", "carli", "carla", "pao", "rene", "andy", "andres", "santi", "santiago","santia", "santis", "adela", "adelheyd","adelhate"]
+    let nombreUser = ["nico",  "nicolas","chen", "nicole", "juli","julieta", "lean", "leandro", "mario", "karina", "kari", "carli", "carla", "pao", "rene", "andy", "andres", "santi", "santiago","santia", "santis", "adela", "adelheyd","adelhate", "magdalena","mangui","victoria","vico",]
 
     btnSubmit.addEventListener('click', function(){
     
@@ -114,6 +114,10 @@ window.addEventListener("load", function(){
             case "andres":
                 chatText.innerHTML += `<p class="txt-adelbot">Adelbot: Dios me lo bendiga, me lo ampare y me lo favorezca</p>`
                 break;
+            case "magdalena":
+            case "mangui":
+                chatText.innerHTML += `<p class="txt-adelbot">Adelbot: por fa no me botes Mangui. T.T</p>`
+                break;
             case "mario":
                 chatText.innerHTML += `<p class="txt-adelbot">Adelbot: Hola Vecino!</p>`
                 break;
@@ -121,6 +125,10 @@ window.addEventListener("load", function(){
             case "adelheyd":
             case "adelhate":
                 chatText.innerHTML += `<p class="txt-adelbot">Adelbot: yo soy yo?</p>`
+                break;
+            case "victoria":
+            case "vico":
+                chatText.innerHTML += `<p class="txt-adelbot">Adelbot: Hola Vico! Blake no me aprueba los QAs uwu.</p>`
                 break;
              case "rene":
                 chatText.innerHTML += `<p class="txt-adelbot">Adelbot: Hola Rene mi amor hermoso</p>`
