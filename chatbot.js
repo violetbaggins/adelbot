@@ -110,6 +110,10 @@ window.addEventListener("load", function(){
             case "karina":
                 chatText.innerHTML += `<p class="txt-adelbot">Adelbot: Me han dicho que eres la arepa reina</p>`
                 break;
+            case "andy":
+            case "andres":
+                chatText.innerHTML += `<p class="txt-adelbot">Adelbot: Dios me lo bendiga, me lo ampare y me lo favorezca</p>`
+                break;
             case "mario":
                 chatText.innerHTML += `<p class="txt-adelbot">Adelbot: Hola Vecino!</p>`
                 break;
